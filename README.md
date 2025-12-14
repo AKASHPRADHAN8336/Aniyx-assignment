@@ -171,9 +171,8 @@ docker-compose logs -f mysql
 
 * Ensure Docker and Docker Compose are installed
 * Copy `.env.example` to `.env` and adjust values if needed
-* Suitable for production-ready backend demos and interviews
+* Suitable for production-ready backend.
 
 ---
 
-✅ **Ready to deploy, test, and extend.**
 
