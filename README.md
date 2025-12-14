@@ -60,14 +60,14 @@ Both services should show a status of Up or healthy.
 3.API Endpoints
 Health Check
 curl http://localhost:3000/health
-Response: {"status":"ok","service":"user-management-api"}
+Response: {"status":"ok"}
 
 User Management
 Method	Endpoint	Description	Example Request Body
 GET	/users	List all users	- http://localhost:3000/users
-POST	/users	Create a new user	{"name": "John Doe", "dob": "1990-05-15"} - http://localhost:3000/users
+POST	/users	Create a new user	{"name": "Akash Pradhan", "dob": "1990-05-15"} - http://localhost:3000/users
 GET	/users/:id	Get a specific user	-http://localhost:3000/users/1
-PUT	/users/:id	Update a user	{"name": "Jane Doe", "dob": "1992-08-22"} - http://localhost:3000/users
+PUT	/users/:id	Update a user	{"name": "Akash Pradhan", "dob": "1992-08-22"} - http://localhost:3000/users
 DELETE	/users/:id	Delete a user	- http://localhost:3000/users/1
 GET	/health:  application health	- http://localhost:3000/health
 
