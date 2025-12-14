@@ -1,0 +1,54 @@
+# Binaries for programs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go binaries
+bin/
+pkg/
+
+# Test binary
+*.test
+
+# Output of go build
+main
+server
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.docker
+
+# Log files
+*.log
+
+# MySQL binary files
+*.ibd
+*.frm
+
+# Docker
+.dockerignore
+
+# SQLC executable (you can regenerate it)
+sqlc.exe
+
+# Your compiled server
+server.exe
